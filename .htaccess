@@ -1,3 +1,7 @@
+O X-Frame-Options ajuda os navegadores modernos a proteger seus visitantes contra o clickjacking e outras ameaças. Essa é a configuração recomendada.
+
+X-Frame-Options helps modern browsers protect their visitors from clickjacking and other threats. This is the recommended configuration.
+
 # BLOQUEAR ATAQUE DE X-FRAME-OPTIONS NO .HTACCESS #
 # BLOCK X-FRAME-OPTIONS ATTACK ON .HTACCESS #
 <IfModule mod_headers.c>
