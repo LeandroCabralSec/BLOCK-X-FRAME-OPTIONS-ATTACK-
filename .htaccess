@@ -1,0 +1,5 @@
+# BLOQUEAR ATAQUE DE X-FRAME-OPTIONS NO .HTACCESS #
+# BLOCK X-FRAME-OPTIONS ATTACK ON .HTACCESS #
+<IfModule mod_headers.c>
+    Header set X-Frame-Options "sameorigin"
+</IfModule>
